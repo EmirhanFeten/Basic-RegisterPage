@@ -9,10 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 </head>
-<body style="background-color:azure">
-    <form id="form1" runat="server">
-                <div class="col-md-12 col-md-offset-12 col-s-5 col-xs-offset-0">
-            <div class="container text-center col-5" style="background-color:lightblue;height:500px;margin-top:150px;padding-top:60px; border-radius:25px">
+<body style="background-color: azure;
+height:100vh;">
+    <form id="form1" runat="server"  style="align-items:center; justify-content:center;display:flex;height:100%">
+                <div class="col-md-12 col-md-offset-12 col-s-5 col-xs-offset-0" >
+            <div class="container text-center col-12 col-lg-4" style="background-color:lightblue;height:500px;padding-top:60px; border-radius:25px">
 
                 <div class="row">
                     <div class="col-12 col-lg-12 col-md-12"><asp:TextBox ID="TextBox1" placeholder="First Name" class="form-control" runat="server" ></asp:TextBox> </div>
